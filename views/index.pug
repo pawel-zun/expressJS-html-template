@@ -1,0 +1,15 @@
+doctype html
+html
+	head
+		title="Moria App"
+		link(rel='stylesheet', href='assets/style.css', type='text/css')
+	body
+	div.container
+		h1.welcome Hello, Friend!
+		p.message
+			| The Doors of Durin, Lord of Moria. Speak, friend, and enter.
+			br
+			| I, Narvi, made them. Celebrimbor of Hollin drew these signs.
+		form.main-form(action='/welcome', method='GET')
+			input.name(type='text', name='name')
+			input.button(type='submit', value='Mellon')
