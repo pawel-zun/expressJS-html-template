@@ -11,7 +11,7 @@ main {
   resize: both;
   overflow: auto;
   width: 60%;
-  height: 250px;
+  height: 450px;
   margin: 0 auto;
 }
 
@@ -31,6 +31,19 @@ main div p {
 
 .green {
 	color: #39B348;
+}
+
+input[type=submit] {
+  border-radius: 3px;
+  border: 0;
+  background-color: #39B348;
+  width: 240px;
+  height: 65px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 /* piaskowy: C9C69A

@@ -8,9 +8,9 @@ html
 			div
 				h1 Hello, Friend!
 				p.message
-					| This is a sample app that does nothing.
+					| This is a sample app that does nothing but logs you in.
 					br
-					| To log in simply state your name and click the button.
+					| To log in simply click the button below.
 				form.main-form(action='/auth/google', method='GET')
-					input.name(type='text', name='name')
-					input.button(type='submit', value='Login')
+					// input.name(type='text', name='name')
+					input.button(type='submit', value='Magic button')
