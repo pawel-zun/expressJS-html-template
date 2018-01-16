@@ -1,10 +1,15 @@
 doctype html
 html
 	head
-		title="Moria App"
+		title="Sample App"
 		link(rel='stylesheet', href='assets/style.css', type='text/css')
 	body
-	div.container
-		h1.welcome Welcome, #{name}!
-		p.message
-			| You have entered Moria.
+		main
+			div
+				h1 Welcome, 
+					span.green #{name}
+					| !
+				p.message
+					| Congratulations.
+					br
+					| You are inside.

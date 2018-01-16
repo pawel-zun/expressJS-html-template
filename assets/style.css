@@ -1,3 +1,41 @@
 body {
-	background-color: blue;
+	background-color: #D2EDEF;
+	color: #5D7C69;
 }
+
+main {
+	background-color: #C9C38F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: both;
+  overflow: auto;
+  width: 60%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+main div {
+	padding: 20px;
+  width: 80%;
+  background-color: #C9C69A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main div p {
+	text-align: center;
+}
+
+.green {
+	color: #39B348;
+}
+
+/* piaskowy: C9C69A
+	niebieskawy D2EDEF
+	ciemniejszy piaskowy C9C38F
+	khaki 5D7C69
+	zywy zielony 39B348
+	*/

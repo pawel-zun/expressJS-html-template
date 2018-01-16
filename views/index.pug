@@ -1,15 +1,16 @@
 doctype html
 html
 	head
-		title="Moria App"
+		title="Sample App"
 		link(rel='stylesheet', href='assets/style.css', type='text/css')
 	body
-	div.container
-		h1.welcome Hello, Friend!
-		p.message
-			| The Doors of Durin, Lord of Moria. Speak, friend, and enter.
-			br
-			| I, Narvi, made them. Celebrimbor of Hollin drew these signs.
-		form.main-form(action='/welcome', method='GET')
-			input.name(type='text', name='name')
-			input.button(type='submit', value='Mellon')
+		main
+			div
+				h1 Hello, Friend!
+				p.message
+					| This is a sample app that does nothing.
+					br
+					| To log in simply state your name and click the button.
+				form.main-form(action='/auth/google', method='GET')
+					input.name(type='text', name='name')
+					input.button(type='submit', value='Login')
